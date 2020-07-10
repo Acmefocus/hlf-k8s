@@ -226,6 +226,7 @@ hlf-ord:
     ## This is necessary to successfully join a channel
     adminKey: hlf-msp-key-admin
 
+chaincode_image_builder: hyperledger/fabric-ccenv:1.4
 chaincodes: []
   # -
   #   name: mycc

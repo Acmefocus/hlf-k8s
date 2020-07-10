@@ -231,6 +231,8 @@ spec:
           value: /var/hyperledger/admin_msp
         - name: GODEBUG
           value: "netdns=go+1"
+        - name: CORE_CHAINCODE_BUILDER
+          value: {{ .Values.chaincode_image_builder }}
         volumeMounts:
           - mountPath: /etc/hyperledger/fabric
             name: fabric-config
