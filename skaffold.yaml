@@ -86,7 +86,7 @@ deploy:
           hlf-peer.discover-monitor.enabled: true
           chaincodes[0].name: mycc
           chaincodes[0].version: "1.0"
-          chaincodes[0].src: https://github.com/SubstraFoundation/substra-chaincode/archive/master.tar.gz
+          chaincodes[0].src: https://github.com/SubstraFoundation/substra-chaincode/archive/0.0.9-beta.1.tar.gz
           appChannels[0].channelName: mychannel
           appChannels[0].organizations[0].org: MyOrg1
           appChannels[0].organizations[0].mspid: MyOrg1MSP
@@ -158,7 +158,7 @@ deploy:
           hlf-peer.peer.mspID: MyOrg2MSP
           chaincodes[0].name: mycc
           chaincodes[0].version: "1.0"
-          chaincodes[0].src: https://github.com/SubstraFoundation/substra-chaincode/archive/master.tar.gz
+          chaincodes[0].src: https://github.com/SubstraFoundation/substra-chaincode/archive/0.0.9-beta.1.tar.gz
           appChannels[0].channelName: mychannel
           appChannels[0].chaincodePolicy: OR('MyOrg1MSP.member'\,'MyOrg2MSP.member')
           appChannels[0].chaincodeName: mycc
